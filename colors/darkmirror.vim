@@ -149,6 +149,12 @@ hi pythonFunction  ctermfg=7
 " HTML
 hi htmlHead        ctermfg=7
 hi htmlTitle       ctermfg=7
+hi htmlH1          ctermfg=7
+hi htmlH2          ctermfg=7
+hi htmlH3          ctermfg=7
+hi htmlH4          ctermfg=7
+hi htmlH5          ctermfg=7
+hi htmlH6          ctermfg=7
 
 " NERDTree
 hi NERDTreeRO      ctermfg=2     ctermbg=none
