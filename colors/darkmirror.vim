@@ -100,25 +100,25 @@ hi Typedef         ctermfg=2
 hi Function        ctermfg=11
 hi Exception       ctermfg=2
 hi Underlined      ctermfg=8
-hi Title           ctermfg=8  
+hi Title           ctermfg=8
 hi Tag             ctermfg=8
-hi Delimiter       ctermfg=1  
+hi Delimiter       ctermfg=1
 hi SpecialComment  ctermfg=0
 hi Boolean         ctermfg=1
 hi Todo            ctermfg=11
 hi MoreMsg         ctermfg=15
 hi ModeMsg         ctermfg=7
 hi Debug           ctermfg=1
-hi MatchParen      ctermfg=8     ctermbg=7
+hi MatchParen      ctermfg=9     ctermbg=7
 hi ErrorMsg        ctermfg=7     ctermbg=1
 hi WildMenu        ctermfg=5     ctermbg=15
 hi Folded          ctermfg=3     ctermbg=none
-hi IncSearch       ctermfg=0     ctermbg=3
-hi Search          ctermfg=0     ctermbg=15
-hi WarningMsg      ctermfg=9     ctermbg=15
+hi IncSearch       ctermfg=7     ctermbg=3    cterm=none
+hi Search          ctermfg=0     ctermbg=0
+hi WarningMsg      ctermfg=9     ctermbg=none
 hi Question        ctermfg=7     ctermbg=none
 hi Pmenu           ctermfg=0     ctermbg=8
-hi PmenuSel        ctermfg=8    
+hi PmenuSel        ctermfg=8
 hi Visual          ctermfg=8     ctermbg=15
 hi StatusLine      ctermfg=15    ctermbg=0
 hi StatusLineNC    ctermfg=8     ctermbg=0
