@@ -35,8 +35,8 @@
     "*color1: #da4939
     "*color9: #ff6c5c
     "!green
-    "*color2: #509F7E
-    "*color10: #61C29A
+    "*color10: #509F7E
+    "*color2: #61C29A
     "!yellow
     "*color3: #cc7833
     "*color11: #bc9458
@@ -64,71 +64,74 @@ endif
 let g:color_name="darkmirror"
 
 " Normal colors
-hi Normal          ctermfg=7
-hi Ignore          ctermfg=0
-hi Comment         ctermfg=0 
-hi LineNr          ctermfg=0
-hi CursorLine                   ctermbg=8       cterm=none
-hi CursorLineNr                 ctermbg=8       cterm=none
-hi ColorColumn                  ctermbg=8
-hi VertSplit       ctermfg=8    ctermbg=none    cterm=none 
-hi Float           ctermfg=1
-hi Include         ctermfg=3
-hi Define          ctermfg=3
-hi Macro           ctermfg=3
-hi PreProc         ctermfg=2
-hi PreCondit       ctermfg=3
-hi NonText         ctermfg=0
-hi Directory       ctermfg=6
-hi SpecialKey      ctermfg=11
-hi Type            ctermfg=3
-hi String          ctermfg=2
-hi Constant        ctermfg=9
-hi Special         ctermfg=10
-hi SpecialChar     ctermfg=9
-hi Number          ctermfg=9
-hi Identifier      ctermfg=2
-hi Conditional     ctermfg=14
-hi Repeat          ctermfg=4
-hi Statement       ctermfg=3
-hi label           ctermfg=7
-hi operator        ctermfg=3
-hi keyword         ctermfg=7  
-hi StorageClass    ctermfg=3 
-hi Structure       ctermfg=14
-hi Typedef         ctermfg=2
-hi Function        ctermfg=11
-hi Exception       ctermfg=2
-hi Underlined      ctermfg=8
-hi Title           ctermfg=8
-hi Tag             ctermfg=8
-hi Delimiter       ctermfg=1
-hi SpecialComment  ctermfg=0
-hi Boolean         ctermfg=1
-hi Todo            ctermfg=11
-hi MoreMsg         ctermfg=15
-hi ModeMsg         ctermfg=7
-hi Debug           ctermfg=1
-hi MatchParen      ctermfg=9     ctermbg=7
-hi ErrorMsg        ctermfg=7     ctermbg=1
-hi WildMenu        ctermfg=5     ctermbg=15
-hi Folded          ctermfg=3     ctermbg=none
-hi IncSearch       ctermfg=7     ctermbg=3    cterm=none
-hi Search          ctermfg=0     ctermbg=0
-hi WarningMsg      ctermfg=9     ctermbg=none
-hi Question        ctermfg=7     ctermbg=none
-hi Pmenu           ctermfg=0     ctermbg=8
-hi PmenuSel        ctermfg=8
-hi Visual          ctermfg=8     ctermbg=15
-hi StatusLine      ctermfg=15    ctermbg=0
-hi StatusLineNC    ctermfg=8     ctermbg=0
+hi Normal          ctermfg=7    guifg=#dedede   guibg=#050505 gui=none
+hi Ignore          ctermfg=0    guifg=#393939   gui=none
+hi Comment         ctermfg=0    guifg=#393939   gui=none
+hi LineNr          ctermfg=0    guifg=#393939   gui=none
+hi CursorLine                   ctermbg=8       guibg=#202020 cterm=none gui=none
+hi CursorLineNr                 ctermbg=8       guibg=#202020 cterm=none gui=none
+hi ColorColumn                  ctermbg=8       guibg=#202020 gui=none
+hi VertSplit       ctermfg=8    guifg=#393939   guibg=#121212 ctermbg=none cterm=none gui=none
+hi Float           ctermfg=1    guifg=#da4939   gui=none
+hi Include         ctermfg=3    guifg=#cc7833   gui=none
+hi Define          ctermfg=3    guifg=#cc7833   gui=none
+hi Macro           ctermfg=3    guifg=#cc7833   gui=none
+hi PreProc         ctermfg=2    guifg=#61c29a   gui=none
+hi PreCondit       ctermfg=3    guifg=#cc7833   gui=none
+hi NonText         ctermfg=0    guifg=#393939   gui=none
+hi Directory       ctermfg=6    guifg=#435d75   gui=none
+hi SpecialKey      ctermfg=11   guifg=#bc9458   gui=none
+hi Type            ctermfg=3    guifg=#cc7833   gui=none
+hi String          ctermfg=2    guifg=#61c29a   gui=none
+hi Constant        ctermfg=9    guifg=#ff6c5c   gui=none
+hi Special         ctermfg=10   guifg=#61c29a   gui=none
+hi SpecialChar     ctermfg=9    guifg=#ff6c5c   gui=none
+hi Number          ctermfg=9    guifg=#ff6c5c   gui=none
+hi Identifier      ctermfg=2    guifg=#61c29a   gui=none
+hi Conditional     ctermfg=14   guifg=#6e98a4   gui=none
+hi Repeat          ctermfg=4    guifg=#6d9cbe   gui=none
+hi Statement       ctermfg=3    guifg=#cc7833   gui=none
+hi label           ctermfg=7    guifg=#dedede   gui=none
+hi operator        ctermfg=3    guifg=#cc7833   gui=none
+hi keyword         ctermfg=7    guifg=#dedede   gui=none
+hi StorageClass    ctermfg=3    guifg=#cc7833   gui=none
+hi Structure       ctermfg=14   guifg=#6e98a4   gui=none
+hi Typedef         ctermfg=2    guifg=#61c29a   gui=none
+hi Function        ctermfg=11   guifg=#bc9458   gui=none
+hi Exception       ctermfg=2    guifg=#61c29a   gui=none
+hi Underlined      ctermfg=8    guifg=#121212   gui=none
+hi Title           ctermfg=8    guifg=#121212   gui=none
+hi Tag             ctermfg=8    guifg=#121212   gui=none
+hi Delimiter       ctermfg=1    guifg=#da4939   gui=none
+hi SpecialComment  ctermfg=0    guifg=#393939   gui=none
+hi Boolean         ctermfg=1    guifg=#da4939   gui=none
+hi Todo            ctermfg=11   guifg=#bc9458   gui=none
+hi MoreMsg         ctermfg=15   guifg=#dddddd   gui=none
+hi ModeMsg         ctermfg=7    guifg=#dedede   gui=none
+hi Debug           ctermfg=1    guifg=#da4939   gui=none
+hi MatchParen      ctermfg=9    guifg=#ff6c5c   ctermbg=7    guibg=#dedede   gui=none
+hi ErrorMsg        ctermfg=7    guifg=#dedede   ctermbg=1    guibg=#da4939   gui=none
+hi WildMenu        ctermfg=5    guifg=#9966d9   ctermbg=15   guibg=#dddddd   gui=none
+hi Folded          ctermfg=3    guifg=#cc7833   ctermbg=none gui=none
+hi IncSearch       ctermfg=7    guifg=#dedede   ctermbg=3    guibg=#cc7833   cterm=none   gui=none
+hi Search          ctermfg=0    guifg=#393939   ctermbg=0    guibg=#393939   gui=none
+hi WarningMsg      ctermfg=9    guifg=#ff6c5c   ctermbg=none gui=none
+hi Question        ctermfg=7    guifg=#dedede   ctermbg=none gui=none
+hi Pmenu           ctermfg=0    guifg=#393939   ctermbg=8    guibg=#121212   gui=none
+hi PmenuSel        ctermfg=8    guifg=#121212   gui=none
+hi Visual          ctermfg=8    guifg=#121212   ctermbg=15   guibg=#dddddd   gui=none
+hi StatusLine      ctermfg=15   guifg=#dddddd   ctermbg=0    guibg=#393939   gui=none
+hi StatusLineNC    ctermfg=8    guifg=#121212   ctermbg=0    guibg=#393939   gui=none
+
+" Vim specific
+hi helpNote        ctermfg=3    guifg=#cc7833     ctermbg=none   gui=none
 
 " Diff lines
-hi DiffLine        ctermfg=6     ctermbg=none
-hi DiffText        ctermfg=15
-hi DiffAdd         ctermfg=2     ctermbg=none
-hi DiffChange      ctermfg=3     ctermbg=none
-hi DiffRemoved     ctermfg=1
+hi DiffLine        ctermfg=6    guifg=#435d75     ctermbg=none   gui=none
+hi DiffText        ctermfg=15   guifg=#dddddd     gui=none
+hi DiffAdd         ctermfg=2    guifg=#61c29a     ctermbg=none   gui=none
+hi DiffChange      ctermfg=3    guifg=#cc7833     ctermbg=none   gui=none
+hi DiffRemoved     ctermfg=1    guifg=#da4939
 
 " Spell checking
 if version >= 700
@@ -136,36 +139,41 @@ if version >= 700
   hi clear SpellCap
   hi clear SpellRare
   hi clear SpellLocal
-  hi SpellBad      cterm=underline
-  hi SpellCap      cterm=underline
-  hi SpellRare     cterm=underline
-  hi SpellLocal    cterm=underline
+  hi SpellBad      cterm=underline    gui=underline
+  hi SpellCap      cterm=underline    gui=underline
+  hi SpellRare     cterm=underline    gui=underline
+  hi SpellLocal    cterm=underline    gui=underline
 endif
 
 " Python
-hi pythonString    ctermfg=2
-hi pythonFunction  ctermfg=7
+hi pythonString    ctermfg=2    guifg=#61c29a   gui=none
+hi pythonFunction  ctermfg=7    guifg=#dedede   gui=none
 
 " HTML
-hi htmlHead        ctermfg=7
-hi htmlTitle       ctermfg=7
-hi htmlH1          ctermfg=7
-hi htmlH2          ctermfg=7
-hi htmlH3          ctermfg=7
-hi htmlH4          ctermfg=7
-hi htmlH5          ctermfg=7
-hi htmlH6          ctermfg=7
+hi htmlHead        ctermfg=7    guifg=#dedede   gui=none
+hi htmlTitle       ctermfg=7    guifg=#dedede   gui=none
+hi htmlH1          ctermfg=7    guifg=#dedede   gui=none
+hi htmlH2          ctermfg=7    guifg=#dedede   gui=none
+hi htmlH3          ctermfg=7    guifg=#dedede   gui=none
+hi htmlH4          ctermfg=7    guifg=#dedede   gui=none
+hi htmlH5          ctermfg=7    guifg=#dedede   gui=none
+hi htmlH6          ctermfg=7    guifg=#dedede   gui=none
 
 " NERDTree
-hi NERDTreeRO      ctermfg=2     ctermbg=none
-hi NERDTreeToggleOn              ctermbg=none
-hi NERDTreeToggleOff             ctermbg=none
-hi NERDTreeExecFile ctermfg=2    ctermbg=none
+hi NERDTreeRO      ctermfg=2    guifg=#61c29a   ctermbg=none   gui=none
+hi NERDTreeToggleOn             ctermbg=none    gui=none
+hi NERDTreeToggleOff            ctermbg=none    gui=none
+hi NERDTreeExecFile ctermfg=2   guifg=#61c29a   ctermbg=none   gui=none
 
 " Markdown
-hi markdownH1      ctermfg=2 
-hi markdownH2      ctermfg=2 
-hi markdownH3      ctermfg=2 
-hi markdownH4      ctermfg=2 
-hi markdownHeadingDelimiter ctermfg=2
-hi markdownLinkText ctermfg=3 
+hi markdownH1      ctermfg=2    guifg=#61c29a    gui=none
+hi markdownH2      ctermfg=2    guifg=#61c29a    gui=none
+hi markdownH3      ctermfg=2    guifg=#61c29a    gui=none
+hi markdownH4      ctermfg=2    guifg=#61c29a    gui=none
+hi markdownHeadingDelimiter     ctermfg=2        guifg=#61c29a   gui=none
+hi markdownLinkText ctermfg=3   guifg=#cc7833    gui=none
+
+" Cursor
+hi Cursor          guifg=#000000 guibg=#ff8939   gui=none
+hi iCursor         guifg=#000000 guibg=#ff8939   gui=none
+hi vCursor         guifg=#000000 guibg=#ff8939   gui=none
