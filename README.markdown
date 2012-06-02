@@ -18,38 +18,39 @@ Xresources Colors
 To display this colorscheme as I have envisioned I suggest you to use this colors
 for your Xterms (I use URxvt myself, but you can tweak them to make them work
 with your setup):
- 
 
     " //////////// URxvt Colors ////////////" 
     "
-        "*foreground: #DDDDDD
-        "*background: #050505
-        "!black
-        "*color0: #393939
-        "*color8: #121212
-        "!red
-        "*color1: #da4939
-        "*color9: #ff6c5c
-        "!green
-        "*color2: #509F7E
-        "*color10: #61C29A
-        "!yellow
-        "*color3: #cc7833
-        "*color11: #bc9458
-        "!blue
-        "*color4: #6d9cbe
-        "*color12: #d0d0ff
-        "!magenta
-        "*color5: #9966D9
-        "*color13: #9954DE
-        "!cyan
-        "*color6: #435d75
-        "*color14: #6e98a4
-        "!white
-        "*color7: #dedede
-        "*color15: #dddddd
+    "*foreground: #DDDDDD
+    "*background: #050505
+    "!black
+    "*color0: #393939
+    "*color8: #121212
+    "!red
+    "*color1: #da4939
+    "*color9: #ff6c5c
+    "!green
+    "*color10: #509F7E
+    "*color2: #61C29A
+    "!yellow
+    "*color3: #cc7833
+    "*color11: #bc9458
+    "!blue
+    "*color4: #6d9cbe
+    "*color12: #91c1e3
+    "!magenta
+    "*color5 :#9966D9
+    "*color13: #9954DE
+    "!cyan
+    "*color6: #435d75
+    "*color14: #6e98a4
+    "!white
+    "*color7: #dedede
+    "*color15: #dddddd
 
     " //////////////////////////////////////" 
+    "
+
 
 Why I do this?
 --------------

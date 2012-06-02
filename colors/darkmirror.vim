@@ -42,7 +42,7 @@
     "*color11: #bc9458
     "!blue
     "*color4: #6d9cbe
-    "*color12: #d0d0ff
+    "*color12: #91c1e3
     "!magenta
     "*color5: #9966D9
     "*color13: #9954DE
@@ -97,7 +97,7 @@ hi keyword         ctermfg=7    guifg=#dedede   gui=none
 hi StorageClass    ctermfg=3    guifg=#cc7833   gui=none
 hi Structure       ctermfg=14   guifg=#6e98a4   gui=none
 hi Typedef         ctermfg=2    guifg=#61c29a   gui=none
-hi Function        ctermfg=11   guifg=#bc9458   gui=none
+hi Function        ctermfg=3    guifg=#cc7833   gui=none
 hi Exception       ctermfg=2    guifg=#61c29a   gui=none
 hi Underlined      ctermfg=8    guifg=#121212   gui=none
 hi Title           ctermfg=8    guifg=#121212   gui=none
@@ -111,7 +111,7 @@ hi ModeMsg         ctermfg=7    guifg=#dedede   gui=none
 hi Debug           ctermfg=1    guifg=#da4939   gui=none
 hi MatchParen      ctermfg=9    guifg=#ff6c5c   ctermbg=7    guibg=#dedede   gui=none
 hi ErrorMsg        ctermfg=7    guifg=#dedede   ctermbg=1    guibg=#da4939   gui=none
-hi WildMenu        ctermfg=5    guifg=#9966d9   ctermbg=15   guibg=#dddddd   gui=none
+hi WildMenu        ctermfg=7    guifg=#dedede   ctermbg=0    guibg=#393939   gui=none
 hi Folded          ctermfg=3    guifg=#cc7833   ctermbg=none gui=none
 hi IncSearch       ctermfg=7    guifg=#dedede   ctermbg=3    guibg=#cc7833   cterm=none   gui=none
 hi Search          ctermfg=0    guifg=#393939   ctermbg=0    guibg=#393939   gui=none
@@ -168,10 +168,18 @@ hi NERDTreeExecFile ctermfg=2   guifg=#61c29a   ctermbg=none   gui=none
 " Markdown
 hi markdownH1      ctermfg=2    guifg=#61c29a    gui=none
 hi markdownH2      ctermfg=2    guifg=#61c29a    gui=none
-hi markdownH3      ctermfg=2    guifg=#61c29a    gui=none
-hi markdownH4      ctermfg=2    guifg=#61c29a    gui=none
-hi markdownHeadingDelimiter     ctermfg=2        guifg=#61c29a   gui=none
+hi markdownH3      ctermfg=10   guifg=#509F7E    gui=none
+hi markdownH4      ctermfg=10   guifg=#509F7E    gui=none
+hi markdownHeadingDelimiter     ctermfg=10       guifg=#509F7E   gui=none
+hi markdownHeadingRule          ctermfg=2        guifg=#61c29a   gui=none
+hi markdownCodeBlock            ctermfg=7        guifg=#dedede   gui=none
+hi markdownAutomaticLink        ctermfg=1        guifg=#da4939   gui=none
 hi markdownLinkText ctermfg=3   guifg=#cc7833    gui=none
+
+" Mutt 
+hi mailSubject                  ctermfg=5        guifg=#dedede   gui=none
+hi mailHeaderKey                  ctermfg=6        guifg=#dedede   gui=none
+
 
 " Cursor
 hi Cursor          guifg=#000000 guibg=#ff8939   gui=none
