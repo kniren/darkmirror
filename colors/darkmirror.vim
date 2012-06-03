@@ -112,7 +112,7 @@ hi Debug           ctermfg=1    guifg=#da4939   gui=none
 hi MatchParen      ctermfg=9    guifg=#ff6c5c   ctermbg=7    guibg=#dedede   gui=none
 hi ErrorMsg        ctermfg=7    guifg=#dedede   ctermbg=1    guibg=#da4939   gui=none
 hi WildMenu        ctermfg=7    guifg=#dedede   ctermbg=0    guibg=#393939   gui=none
-hi Folded          ctermfg=3    guifg=#cc7833   ctermbg=none gui=none
+hi Folded          ctermfg=0    guifg=#393939   ctermbg=none guibg=#000000   gui=none
 hi IncSearch       ctermfg=7    guifg=#dedede   ctermbg=3    guibg=#cc7833   cterm=none   gui=none
 hi Search          ctermfg=0    guifg=#393939   ctermbg=0    guibg=#393939   gui=none
 hi WarningMsg      ctermfg=9    guifg=#ff6c5c   ctermbg=none gui=none
