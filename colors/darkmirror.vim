@@ -131,6 +131,7 @@ hi helpNote        ctermfg=3    guifg=#cc7833     ctermbg=none   gui=none
 hi DiffLine        ctermfg=6    guifg=#435d75     ctermbg=none   gui=none
 hi DiffText        ctermfg=15   guifg=#dddddd     gui=none
 hi DiffAdd         ctermfg=2    guifg=#61c29a     ctermbg=none   gui=none
+hi DiffDelete      ctermfg=1    guifg=#61c29a     ctermbg=none   gui=none
 hi DiffChange      ctermfg=3    guifg=#cc7833     ctermbg=none   gui=none
 hi DiffRemoved     ctermfg=1    guifg=#da4939
 
