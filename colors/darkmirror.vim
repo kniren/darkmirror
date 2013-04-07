@@ -105,7 +105,7 @@ hi Tag             ctermfg=8    guifg=#121212   gui=none
 hi Delimiter       ctermfg=1    guifg=#da4939   gui=none
 hi SpecialComment  ctermfg=0    guifg=#393939   gui=none
 hi Boolean         ctermfg=1    guifg=#da4939   gui=none
-hi Todo            ctermfg=11   guifg=#bc9458   gui=none
+hi Todo            ctermfg=11   ctermbg=none guifg=#bc9458   gui=none
 hi MoreMsg         ctermfg=15   guifg=#dddddd   gui=none
 hi ModeMsg         ctermfg=7    guifg=#dedede   gui=none
 hi Debug           ctermfg=1    guifg=#da4939   gui=none
@@ -181,7 +181,6 @@ hi markdownLinkText ctermfg=3   guifg=#cc7833    gui=none
 " Mutt 
 hi mailSubject                  ctermfg=5        guifg=#dedede   gui=none
 hi mailHeaderKey                ctermfg=6        guifg=#dedede   gui=none
-
 
 " Cursor
 hi Cursor          guifg=#000000 guibg=#ff8939   gui=none
