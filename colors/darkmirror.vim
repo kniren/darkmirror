@@ -109,7 +109,7 @@ hi Todo            ctermfg=11   ctermbg=none guifg=#bc9458   gui=none
 hi MoreMsg         ctermfg=15   guifg=#dddddd   gui=none
 hi ModeMsg         ctermfg=7    guifg=#dedede   gui=none
 hi Debug           ctermfg=1    guifg=#da4939   gui=none
-hi MatchParen      ctermfg=9    guifg=#ff6c5c   ctermbg=7    guibg=#dedede   gui=none
+hi MatchParen      ctermfg=7    guifg=#ff6c5c   ctermbg=0    guibg=#dedede   gui=none
 hi ErrorMsg        ctermfg=7    guifg=#dedede   ctermbg=1    guibg=#da4939   gui=none
 hi WildMenu        ctermfg=7    guifg=#dedede   ctermbg=0    guibg=#393939   gui=none
 hi Folded          ctermfg=0    guifg=#393939   ctermbg=none guibg=#000000   gui=none
