@@ -71,6 +71,7 @@ hi LineNr          ctermfg=0    guifg=#393939   gui=none
 hi CursorLine                   ctermbg=8       guibg=#202020 cterm=none gui=none
 hi CursorLineNr                 ctermbg=8       guibg=#202020 cterm=none gui=none
 hi ColorColumn                  ctermbg=8       guibg=#202020 gui=none
+hi SignColumn      ctermbg=none
 hi VertSplit       ctermfg=8    guifg=#393939   guibg=#121212 ctermbg=none cterm=none gui=none
 hi Float           ctermfg=1    guifg=#da4939   gui=none
 hi Include         ctermfg=3    guifg=#cc7833   gui=none
@@ -110,6 +111,7 @@ hi MoreMsg         ctermfg=15   guifg=#dddddd   gui=none
 hi ModeMsg         ctermfg=7    guifg=#dedede   gui=none
 hi Debug           ctermfg=1    guifg=#da4939   gui=none
 hi MatchParen      ctermfg=7    guifg=#ff6c5c   ctermbg=0    guibg=#dedede   gui=none
+hi Error           ctermfg=1    ctermbg=none
 hi ErrorMsg        ctermfg=7    guifg=#dedede   ctermbg=1    guibg=#da4939   gui=none
 hi WildMenu        ctermfg=7    guifg=#dedede   ctermbg=0    guibg=#393939   gui=none
 hi Folded          ctermfg=0    guifg=#393939   ctermbg=none guibg=#000000   gui=none
