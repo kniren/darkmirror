@@ -117,7 +117,7 @@ hi WildMenu        ctermfg=7    guifg=#dedede   ctermbg=0    guibg=#393939   gui
 hi Folded          ctermfg=0    guifg=#393939   ctermbg=none guibg=#000000   gui=none
 hi FoldColumn      ctermfg=0    guifg=#393939   ctermbg=none guibg=#000000   gui=none
 hi IncSearch       ctermfg=7    guifg=#dedede   ctermbg=3    guibg=#cc7833   cterm=none   gui=none
-hi Search          ctermfg=0    guifg=#393939   ctermbg=15    guibg=#393939   gui=none
+hi Search          ctermfg=2    guifg=#393939   ctermbg=8   guibg=#393939   gui=none
 hi WarningMsg      ctermfg=9    guifg=#ff6c5c   ctermbg=none gui=none
 hi Question        ctermfg=7    guifg=#dedede   ctermbg=none gui=none
 hi Pmenu           ctermfg=0    guifg=#393939   ctermbg=8    guibg=#121212   gui=none
