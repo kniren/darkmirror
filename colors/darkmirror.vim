@@ -101,7 +101,7 @@ hi Typedef         ctermfg=2    guifg=#61c29a   gui=none
 hi Function        ctermfg=3    guifg=#cc7833   gui=none
 hi Exception       ctermfg=2    guifg=#61c29a   gui=none
 hi Underlined      ctermfg=8    guifg=#121212   gui=none
-hi Title           ctermfg=8    guifg=#121212   gui=none
+hi Title           ctermfg=7    guifg=#121212   gui=none
 hi Tag             ctermfg=8    guifg=#121212   gui=none
 hi Delimiter       ctermfg=1    guifg=#da4939   gui=none
 hi SpecialComment  ctermfg=0    guifg=#393939   gui=none
