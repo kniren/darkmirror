@@ -162,6 +162,7 @@ hi htmlH3          ctermfg=7    guifg=#dedede   gui=none
 hi htmlH4          ctermfg=7    guifg=#dedede   gui=none
 hi htmlH5          ctermfg=7    guifg=#dedede   gui=none
 hi htmlH6          ctermfg=7    guifg=#dedede   gui=none
+hi htmlLink        ctermfg=4    guifg=#dedede   gui=none
 
 " NERDTree
 hi NERDTreeRO      ctermfg=2    guifg=#61c29a   ctermbg=none   gui=none
