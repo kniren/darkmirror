@@ -123,7 +123,7 @@ hi Question        ctermfg=7    guifg=#dedede   ctermbg=none gui=none
 hi Pmenu           ctermfg=0    guifg=#393939   ctermbg=8    guibg=#121212   gui=none
 hi PmenuSel        ctermfg=8    guifg=#121212   gui=none
 hi Visual          ctermfg=8    guifg=#121212   ctermbg=15   guibg=#dddddd   gui=none
-hi StatusLine      ctermfg=15   guifg=#dddddd   ctermbg=0    guibg=#393939   gui=none
+hi StatusLine      ctermfg=8    ctermbg=15
 hi StatusLineNC    ctermfg=8    guifg=#121212   ctermbg=0    guibg=#393939   gui=none
 
 " Vim specific
