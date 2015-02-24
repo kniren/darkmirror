@@ -172,7 +172,7 @@ hi iCursor guifg=#DBDFE0 guibg=#828D92 gui=none
 hi vCursor guifg=#DBDFE0 guibg=#828D92 gui=none
 
 " GitGutter
-hi GitGutterAdd          guifg=#B1FBC5
-hi GitGutterChange       guifg=#FFEC7D
-hi GitGutterDelete       guifg=#C05266
-hi GitGutterChangeDelete guifg=#FFEC7D
+hi GitGutterAdd          ctermfg=2  guifg=#B1FBC5
+hi GitGutterChange       ctermfg=11 guifg=#FFEC7D
+hi GitGutterDelete       ctermfg=1  guifg=#C05266
+hi GitGutterChangeDelete ctermfg=11 guifg=#FFEC7D
