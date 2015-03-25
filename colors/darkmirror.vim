@@ -176,3 +176,6 @@ hi GitGutterAdd          ctermfg=2  guifg=#B1FBC5
 hi GitGutterChange       ctermfg=11 guifg=#FFEC7D
 hi GitGutterDelete       ctermfg=1  guifg=#C05266
 hi GitGutterChangeDelete ctermfg=11 guifg=#FFEC7D
+
+" Golang
+hi goDeclaration   ctermfg=6               guifg=#56B4A9               gui=none
