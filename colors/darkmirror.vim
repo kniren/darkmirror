@@ -103,7 +103,7 @@ hi Visual          ctermfg=8  ctermbg=15   guifg=#545454 guibg=#DBDFE0 gui=none
 hi StatusLine      ctermfg=8  ctermbg=15   guifg=#545454 guibg=#DBDFE0
 hi StatusLineNC    ctermfg=8  ctermbg=0    guifg=#828D92 guibg=#545454  gui=none
 hi CursorLine                 ctermbg=8                  guibg=#545454 gui=none cterm=none 
-hi CursorLineNr               ctermbg=8                  guibg=#545454 gui=none cterm=none 
+hi CursorLineNr               ctermbg=8    guifg=#DBDFE0 guibg=#545454 gui=none cterm=none 
 hi ColorColumn                ctermbg=8                  guibg=#545454 gui=none
 hi SignColumn                 ctermbg=none               guibg=#393B3E
 
